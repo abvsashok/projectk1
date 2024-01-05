@@ -1,11 +1,14 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
+import SingleBlog from "@/components/Blog/SingleBlog";
+import blogData from "@/components/Blog/blogData";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import HomeCarosel from "@/components/HomeCarosel";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
@@ -18,12 +21,14 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      {/* <HomeCarosel /> */}
       <Features />
       <Video />
-      <Brands />
+     
+      {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Blog />
       <Contact />
     </>

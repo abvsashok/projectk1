@@ -6,10 +6,10 @@ const blogData: Blog[] = [
     title: "Best UI components for modern websites",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/service/service1.jpeg",
     author: {
       name: "Samuyl Joshi",
-      image: "/images/blog/author-01.png",
+      image: "/images/service/service1.png",
       designation: "Graphic Designer",
     },
     tags: ["creative"],

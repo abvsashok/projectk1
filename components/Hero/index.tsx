@@ -6,10 +6,16 @@ const Hero = () => {
   return (
     <>
       <section
+      style={{ backgroundImage: "url('/images/hero/banner1.jpg')",
+      backgroundRepeat: "no-repeat",      // Prevent image from repeating
+      backgroundSize: "cover",            // Fit the image to cover the entire div
+      // backgroundPosition: "center center"
+     }}
+      
         id="home"
         className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
       >
-        <div className="container">
+        <div className="container" >
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
@@ -27,7 +33,7 @@ const Hero = () => {
                     href="#"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Learn More
+                    Contact Us
                   </Link>
 
                 </div>
@@ -35,7 +41,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -275,7 +281,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

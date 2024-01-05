@@ -7,12 +7,12 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
-  {
-    id: 2,
-    title: "Platform",
-    path: "/#",
-    newTab: false,
-  },
+  // {
+  //   id: 2,
+  //   title: "Platform",
+  //   path: "/#",
+  //   newTab: false,
+  // },
   {
     id: 4,
     title: "Industries",
@@ -33,18 +33,18 @@ const menuData: Menu[] = [
     ],
   },
 
-  {
-    id: 3,
-    title: "Resources",
-    path: "/#",
-    newTab: false,
-  },
-  {
-    id: 33,
-    title: "About Us",
-    path: "/#",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Resources",
+  //   path: "/#",
+  //   newTab: false,
+  // },
+  // {
+  //   id: 33,
+  //   title: "About Us",
+  //   path: "/#",
+  //   newTab: false,
+  // },
 
 ];
 export default menuData;
