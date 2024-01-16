@@ -3,8 +3,8 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
-    path: "/",
+    title: "Contact us",
+    path: "/#contact",
     newTab: false,
   },
   // {
@@ -13,25 +13,25 @@ const menuData: Menu[] = [
   //   path: "/#",
   //   newTab: false,
   // },
-  {
-    id: 4,
-    title: "Industries",
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Page 1",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Page 2",
-        path: "/contact",
-        newTab: false,
-      }
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Industries",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 41,
+  //       title: "Page 1",
+  //       path: "/about",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 42,
+  //       title: "Page 2",
+  //       path: "/contact",
+  //       newTab: false,
+  //     }
+  //   ],
+  // },
 
   // {
   //   id: 3,
