@@ -6,14 +6,15 @@ const Hero = () => {
   return (
     <>
       <section
-      style={{ backgroundImage: "url('/images/hero/banner1.jpg')",
-      backgroundRepeat: "no-repeat",      // Prevent image from repeating
-      backgroundSize: "cover",            // Fit the image to cover the entire div
-      // backgroundPosition: "center center"
-     }}
-      
+        style={{
+          backgroundImage: "url('/images/hero/banner1.jpg')",
+          backgroundRepeat: "no-repeat",      // Prevent image from repeating
+          backgroundSize: "cover",            // Fit the image to cover the entire div
+          backgroundPosition: "center center"
+        }}
+
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden top-[80px] pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
       >
         <div className="container" >
           <div className="-mx-4 flex flex-wrap">
@@ -25,12 +26,13 @@ const Hero = () => {
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   {content.home.bannerTitle}
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  {content.home.bannerDesc}                
+                {/* //dark:text-white */}
+                <p className="mb-12 py-2 text-base font-medium !leading-relaxed rounded-md text-body-color bg-white  dark:opacity-90 sm:text-lg md:text-xl ">
+                  {content.home.bannerDesc}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="#"
+                    href="#contact"
                     className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Contact Us

@@ -38,7 +38,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 left-0 z-40 flex w-full items-center bg-transparent ${sticky
+        className={`bg-gradient-to-r from-cyan-500 to-blue-500 header top-0 left-0 z-40 flex w-full items-center bg-transparent ${sticky
           ? "!fixed !z-[9999] !bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
           : "absolute"
           }`}
@@ -164,13 +164,13 @@ const Header = () => {
                   href="/#"
                   className="hidden py-1 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                 Email : service@anbrenovation.com
+                 service@anbrenovation.com
                 </Link>
                 <Link
                   href="/#"
                   className="hidden py-1 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                  Ph: +1 1234567890
+                  Ph: +1 416-989-0990
                 </Link>
 
               </div>
