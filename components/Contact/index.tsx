@@ -1,5 +1,9 @@
 import NewsLatterBox from "./NewsLatterBox";
 
+const address = {
+  'snpconstruction.ca': ``
+}
+
 const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
@@ -18,8 +22,9 @@ const Contact = () => {
                 {/* Our support team will get back to you ASAP via email. */}
               </p>
               <h1 className="text-2xl leading-10 text-center text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl font-bold">
-                680 Summer Park Crescent <br />
-                Mississauga ON L5B 4E9 <br />
+                {process.env.DOMAIN == 'snpconstruction' ? <> 75 Inge Ct <br />
+                  Kitchener, ON - N2K 3V7 <br /></> : <> 680 Summer Park Crescent <br />
+                  Mississauga ON L5B 4E9 <br /></>}
               </h1>
               <h1 className="text-2xl text-center mt-4 text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
                 Ph : +1 416-989-0990
