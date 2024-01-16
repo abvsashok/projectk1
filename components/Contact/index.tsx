@@ -11,13 +11,20 @@ const Contact = () => {
               data-wow-delay=".15s
               "
             >
-              <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
+              <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl text-center underline underline-offset-2">
                 Contact us
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+                {/* Our support team will get back to you ASAP via email. */}
               </p>
-              <form>
+              <h1 className="text-2xl leading-10 text-center text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl font-bold">
+                680 Summer Park Crescent <br />
+                Mississauga ON L5B 4E9 <br />
+              </h1>
+              <h1 className="text-2xl text-center mt-4 text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
+                Ph : +1 416-989-0990
+              </h1>
+              {/* <form>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -71,7 +78,7 @@ const Contact = () => {
                     </button>
                   </div>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
           {/* <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
