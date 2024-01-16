@@ -95,7 +95,7 @@ const Header = () => {
                     : "invisible top-[120%] opacity-0"
                     }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12">
+                  <ul className="block lg:hidden lg:space-x-12">
                     {menuData.map((menuItem, index) => (
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
@@ -160,12 +160,12 @@ const Header = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-end pr-16  items-center">
-                <Link
+                {/* <Link
                   href="/#"
                   className="hidden py-1 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
                  service@anbrenovation.com
-                </Link>
+                </Link> */}
                 <Link
                   href="/#"
                   className="hidden py-1 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
