@@ -52,18 +52,18 @@ const Header = () => {
                   } `}
               >
                 <Image
-                    src="/images/home/anbrenovation-logo-transparent.png"
+                    src={process.env.DOMAIN == 'snpconstruction' ? "/images/home/snpconstruction-png.png" : '/images/home/anbrenovation-logo-transparent.png'}
                     alt="logo"
                     className="w-full dark:hidden"
-                    width={140}
-                    height={30}
+                    width={150}
+                    height={50}
                   />
                   <Image
-                    src="/images/home/anbrenovation-logo-transparent.png"
+                     src={process.env.DOMAIN == 'snpconstruction' ? "/images/home/snpconstruction-png.png" : '/images/home/anbrenovation-logo-transparent.png'}
                     alt="logo"
                     className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
+                    width={150}
+                    height={50}
                   />
               </Link>
             </div>
