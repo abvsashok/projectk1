@@ -24,11 +24,11 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  {content.home.bannerTitle}
+                  {process.env.Title ?? content.home.bannerTitle}
                 </h1>
                 {/* //dark:text-white */}
                 <p className="mb-12 py-2 text-base font-medium !leading-relaxed rounded-md text-body-color bg-white  dark:opacity-90 sm:text-lg md:text-xl ">
-                  {content.home.bannerDesc}
+                  {process.env.Title ?? content.home.bannerTitle} {content.home.bannerDesc}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
